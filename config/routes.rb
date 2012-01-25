@@ -7,11 +7,14 @@ Twitter::Application.routes.draw do
 
   match 'login' => 'sessions#new', :as => :login
 
-  resources :sessions
 
+
+  resources :posts
+  resources :sessions
+  resources :friendships
   resources :users
 
-	resources :posts
+	
   	get "posts/index"
   	get "posts/message_form"
   	get "posts/post"

@@ -2,3 +2,7 @@
 <div id="posts">  
   <%= render :partial => @posts %>  
 </div>
+
+<%= link_to "Make Friends", users_path %>  
+  
+<%= link_to "My Friends", { :controller => "users", :action => "show", :id => current_user } %>  
