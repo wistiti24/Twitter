@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  mail: MyText
+  password: MyText
+
+two:
+  mail: MyText
+  password: MyText
